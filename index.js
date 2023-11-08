@@ -9,29 +9,29 @@ let nivelHeroi;
 
 switch (true) {
   case xpHeroi < 1000:
-    nivelDoHeroi = "Ferro";
+    nivelHeroi = "Ferro";
     break;
   case xpHeroi >= 1001 && xpHeroi <= 2000:
-    nivelDoHeroi = "Bronze";
+    nivelHeroi = "Bronze";
     break;
   case xpHeroi >= 2001 && xpHeroi <= 5000:
-    nivelDoHeroi = "Prata";
+    nivelHeroi = "Prata";
     break;
   case xpHeroi >= 6001 && xpHeroi <= 7000:
-    nivelDoHeroi = "Ouro";
+    nivelHeroi = "Ouro";
     break;
   case xpHeroi >= 7001 && xpHeroi <= 8000:
-    nivelDoHeroi = "Platina";
+    nivelHeroi = "Platina";
     break;
   case xpHeroi >= 8001 && xpHeroi <= 9000:
-    nivelDoHeroi = "Ascendente";
+    nivelHeroi = "Ascendente";
     break;
   case xpHeroi >= 9001 && xpHeroi <= 10000:
-    nivelDoHeroi = "Imortal";
+    nivelHeroi = "Imortal";
     break;
   default:
-    nivelDoHeroi = "Radiante";
+    nivelHeroi = "Radiante";
 }
 
 // Exibir a mensagem com o nome e o nível do herói
-console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivelDoHeroi);
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivelHeroi);
